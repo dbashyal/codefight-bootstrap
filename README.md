@@ -5,17 +5,17 @@ Codefight's Bootstrap JS to style form inputs and etc...
 
 before:
 -------
-<input class="btn btn-danger" name="delete" type="submit" id="delete" value="Delete Selected"/>
+&lt;input class="btn btn-danger" name="delete" type="submit" id="delete" value="Delete Selected"/&gt;
 after:
 ------
-<button class="btn btn-danger"><i class="icon-trash icon-white"></i>&nbsp;Delete Selected</button><span class="hide"><input type="submit" value="Delete Selected" id="delete" name="delete" class="btn btn-danger"></span>
+&lt;button class="btn btn-danger"&gt;&lt;i class="icon-trash icon-white"&gt;&lt;/i&gt;&nbsp;Delete Selected&lt;/button&gt;&lt;span class="hide"&gt;&lt;input type="submit" value="Delete Selected" id="delete" name="delete" class="btn btn-danger"&gt;&lt;/span&gt;
 
 before:
 -------
-<input data-cfbootstrap-options='{"delete":"minus-sign"}' class="btn btn-danger" name="delete" type="submit" id="delete" value="Delete Selected"/>
+&lt;input data-cfbootstrap-options='{"delete":"minus-sign"}' class="btn btn-danger" name="delete" type="submit" id="delete" value="Delete Selected"/&gt;
 after:
 ------
-<button class="btn btn-danger"><i class="icon-minus-sign icon-white"></i>&nbsp;Delete Selected</button><span class="hide"><input type="submit" value="Delete Selected" id="delete" name="delete" class="btn btn-danger"></span>
+&lt;button class="btn btn-danger"&gt;&lt;i class="icon-minus-sign icon-white"&gt;&lt;/i&gt;&nbsp;Delete Selected&lt;/button&gt;&lt;span class="hide"&gt;&lt;input type="submit" value="Delete Selected" id="delete" name="delete" class="btn btn-danger"&gt;&lt;/span&gt;
 
 This will be added to new codefight cms.
 
